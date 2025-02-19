@@ -6636,6 +6636,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 101.6) (xy 232.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df1b82e-d1df-4bb5-aeaa-7ad02ef90905")
+	)
+	(wire
+		(pts
 			(xy 33.02 54.61) (xy 40.64 54.61)
 		)
 		(stroke
@@ -6823,16 +6833,6 @@
 			(type default)
 		)
 		(uuid "5923d7d4-47d4-417f-be4c-23067312ba3b")
-	)
-	(wire
-		(pts
-			(xy 227.33 99.06) (xy 242.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5968783c-c244-4520-84bf-4e5bda50cfd5")
 	)
 	(wire
 		(pts
@@ -8124,6 +8124,16 @@
 		)
 		(uuid "c9a644a1-71b3-4234-8ac9-533ee420468f")
 	)
+	(wire
+		(pts
+			(xy 227.33 99.06) (xy 242.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf515ed2-6cc4-453c-86f2-d42d865ea92f")
+	)
 	(polyline
 		(pts
 			(xy 287.02 26.67) (xy 318.77 26.67)
@@ -8143,16 +8153,6 @@
 			(type default)
 		)
 		(uuid "d16b9fcb-2049-4810-83f1-7f9534ef0b18")
-	)
-	(wire
-		(pts
-			(xy 227.33 101.6) (xy 232.41 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1cb83e2-1248-47a5-8340-e8c4644e09f4")
 	)
 	(wire
 		(pts
@@ -15063,7 +15063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 109.22 105.41 0)
 			(effects
 				(font
@@ -16198,7 +16198,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6430973e-29d4-4c6d-8d7e-f179f15c0101")
 		(property "Reference" "J104"
 			(at 169.545 101.6 0)
@@ -16209,14 +16208,14 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 169.545 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -16324,8 +16323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 222.25 99.06 0)
-		(mirror y)
+		(at 222.25 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16333,7 +16331,7 @@
 		(dnp no)
 		(uuid "65ff93c6-dc37-4d33-ac0f-298bf6afeca8")
 		(property "Reference" "J105"
-			(at 223.52 96.52 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16342,7 +16340,7 @@
 			)
 		)
 		(property "Value" "TUNNEL_IN"
-			(at 229.235 105.41 0)
+			(at 229.235 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,7 +16349,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 222.25 99.06 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16360,7 +16358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 99.06 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16369,7 +16367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 99.06 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18663,7 +18661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 45.72 105.41 0)
 			(effects
 				(font
