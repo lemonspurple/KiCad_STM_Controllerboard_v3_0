@@ -495,7 +495,7 @@
       "version": 3
     },
     "net_colors": {
-      "GND": "rgb(252, 255, 15)"
+      "GND": "rgb(53, 255, 27)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
