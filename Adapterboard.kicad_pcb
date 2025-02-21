@@ -2011,7 +2011,6 @@
 			)
 		)
 		(model "${KICAD8_3DMODELS_OWN}/DAC_2_Click/DAC_2_click_v100.step"
-			(hide yes)
 			(offset
 				(xyz -11.5 -9 8)
 			)
@@ -5343,9 +5342,8 @@
 			)
 		)
 		(model "${KICAD8_3DMODELS_OWN}/DAC_2_Click/DAC_2_click_v100.step"
-			(hide yes)
 			(offset
-				(xyz -11.5 -9 8)
+				(xyz -11.5 -9 9)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7294,7 +7292,6 @@
 			)
 		)
 		(model "${KICAD8_3DMODELS_OWN}/DAC_2_Click/DAC_2_click_v100.step"
-			(hide yes)
 			(offset
 				(xyz -11.5 -9 8)
 			)
@@ -14045,7 +14042,6 @@
 			(uuid "edc65e61-4580-44e6-b7de-fc5f58eed3d2")
 		)
 		(model "${KICAD8_3DMODELS_OWN}/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.step"
-			(hide yes)
 			(offset
 				(xyz 0 0 8.5)
 			)
@@ -21355,7 +21351,6 @@
 			)
 		)
 		(model "${KICAD8_3DMODELS_OWN}/ADC_8_Click_v100.step"
-			(hide yes)
 			(offset
 				(xyz -11.5 -9 8)
 			)
